@@ -1,0 +1,75 @@
+{% extends "base.html" %} {% block title %} main {% endblock %} {% block content
+%}
+<h1>Upload files</h1>
+<div class="container">
+  <form action="upload" method="POST" enctype="multipart/form-data" id="form">
+    <!-- this div class will be duplicated on adding new files -->
+    <div class="border border-dark p-3 my-3 rounded-2" id="1">
+      <div class="mb-2">
+        <input type="file" name="file-1" multiple="" id="files" />
+      </div>
+      <div class="mb-2">
+        <input
+          type="text"
+          placeholder="class 1"
+          name="class_name-1"
+          id="class_name"
+          required
+        />
+      </div>
+      <div class="mb-2">
+        <input
+          type="radio"
+          name="file_type-1"
+          id="image"
+          value="image"
+          checked
+        />
+        <label for="image">Image</label>
+        <input type="radio" name="file_type-1" id="video" value="video" />
+        <label for="video">Video</label>
+      </div>
+    </div>
+    <!-- min 2 classes -->
+    <div class="border border-dark p-3 my-3 rounded-2" id="1">
+      <div class="mb-2">
+        <input type="file" name="file-2" multiple="" id="files" />
+      </div>
+      <div class="mb-2">
+        <input
+          type="text"
+          placeholder="class 2"
+          name="class_name-2"
+          id="class_name"
+          required
+        />
+      </div>
+      <div class="mb-2">
+        <input
+          type="radio"
+          name="file_type-2"
+          id="image"
+          value="image"
+          checked
+        />
+        <label for="image">Image</label>
+        <input type="radio" name="file_type-2" id="video" value="video" />
+        <label for="video">Video</label>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="container">
+  <button class="btn btn-primary m-3" onclick="addUploadForm()" class="fs-4">
+    +
+  </button>
+  <br />
+  <button class="btn btn-primary m-3" id="upload" onclick="uploadFiles()">
+    Upload
+  </button>
+</div>
+
+<script src="static/index.js"></script>
+
+{% endblock %}

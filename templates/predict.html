@@ -1,0 +1,24 @@
+{% extends "base.html" %} {% block title %} Prediction {% endblock %} {% block
+content %}
+<h1>Prediction</h1>
+<div class="container">
+  <a href="{{url_for('export')}}" class="btn btn-primary mb-4">Export Model</a>
+
+  <form action="show" id="form" method="post" enctype="multipart/form-data">
+    <input type="file" name="files" id="files" multiple="" />
+    <input class="btn btn-secondary" type="submit" />
+  </form>
+
+  <div class="container" id="output">
+    {% if images %} {% for key, value in images.items() %}
+    <div>{{value}}</div>
+    <img
+      src="{{ url_for('static', filename='/predicted/'+key) }}"
+      width="200"
+      height="200"
+    />
+    {% endfor %} {% endif %}
+  </div>
+</div>
+<script src="/static/predict.js"></script>
+{% endblock %}

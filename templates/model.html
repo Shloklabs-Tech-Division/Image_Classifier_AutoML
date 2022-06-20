@@ -1,0 +1,95 @@
+{% extends "base.html" %} {% block title %} Model training {% endblock %} {%
+block content %}
+<h1>Model Training</h1>
+<div class="container">
+  <button class="btn btn-primary mb-4" id="train" onclick="train();">
+    <span
+      class="spinner-border spinner-border-sm"
+      id="status"
+      role="status"
+      aria-hidden="true"
+      hidden
+    ></span>
+    Train
+  </button>
+  <br />
+  <button class="btn btn-secondary mb-4" onclick="showTuning();">
+    Change default
+  </button>
+
+  <div class="container" id="tuning" hidden>
+    <form action="/train" id="form" method="POST">
+      <label for="epochs">Epochs</label>
+      <input name="epochs" type="number" placeholder="epochs" value="10" />
+      <div class="mb-3"></div>
+      <label for="learning_rate">Learning rate</label>
+      <input
+        name="learning_rate"
+        type="number"
+        placeholder="learning_rate"
+        value="10"
+      />
+      <div class="mb-3"></div>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <input
+            class="form-check-input me-1"
+            type="checkbox"
+            name="mobilenet_v3_large_100_224"
+            value="on"
+            aria-label="..."
+            checked
+          />
+          Mobilenet - v3 - large
+        </li>
+        <li class="list-group-item">
+          <input
+            class="form-check-input me-1"
+            type="checkbox"
+            name="efficientnet_b7"
+            value="on"
+            aria-label="..."
+            checked
+          />
+          Efficientnet - b7
+        </li>
+        <li class="list-group-item">
+          <input
+            class="form-check-input me-1"
+            type="checkbox"
+            name="inception_resnet_v2"
+            value="on"
+            aria-label="..."
+            checked
+          />
+          Inception Resnet - v2
+        </li>
+        <li class="list-group-item">
+          <input
+            class="form-check-input me-1"
+            type="checkbox"
+            name="efficientnetv2_xl_21k_ft1k"
+            value="on"
+            aria-label="..."
+            checked
+          />
+          Efficientnet - v2 - xl
+        </li>
+        <li class="list-group-item">
+          <input
+            class="form-check-input me-1"
+            type="checkbox"
+            name="efficientnetv2_b3_21k_ft1k"
+            value="on"
+            aria-label="..."
+            checked
+          />
+          Efficientnet - v2- b3
+        </li>
+      </ul>
+    </form>
+  </div>
+</div>
+<script src="/static/model.js"></script>
+
+{% endblock %}
