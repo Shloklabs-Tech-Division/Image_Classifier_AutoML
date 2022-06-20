@@ -1,4 +1,4 @@
-# teacheable machines
+# Image Classifier AutoML
 
 A flask web app written using python, which acts as an web interface to the teacheable machines project
 
@@ -47,3 +47,28 @@ third page to upload the image and initiate the prediction. The models can also 
 ---
 
 To learn about the **Image classification model selector** project refer : [git link to Image classification model selector](https://github.com/Krishna-Teja732/Img_classification_model_selector)
+
+---
+
+Thanks for SHLOKLABS to provide us with the opportunity to work in the project.
+
+![shloklabs-squarelogo-1630476957505](https://user-images.githubusercontent.com/66177629/174619654-17c1c5b2-2fc5-4fbd-9bb1-56a77fbe930a.png)
+ 
+A special Thanks Manoj Kumar Thangadurai, Lead Engineer, Shloklabs and Dr. N. Arulanand, Professor,PSG College of Technology for mentoring us throughtout the project and giving us their valuable feedback.
+
+## Contributors
+
+### Company:
+1. Shloklabs
+
+### Mentors:
+1. Dr. N. Arulanand, Professor, PSG College of Technology
+2. Manoj Kumar Thangadurai, Lead Engineer, Shloklabs
+
+### Our team:
+1. Gautham S
+2. Kamalraj D
+3. Krishna Teja B
+4. Pawan Kumar
+5. Dhanush Reddy
+6. Srikanth
