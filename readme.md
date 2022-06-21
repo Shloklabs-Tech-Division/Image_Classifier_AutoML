@@ -1,5 +1,3 @@
-## `This is an OpenSource Initiative to support the young talents led by SHLOKLABS & PSG College of Technology`
-
 # Image Classifier AutoML
 
 A flask web app written using python, which acts as an web interface to the teacheable machines project
@@ -52,26 +50,15 @@ To learn about the **Image classification model selector** project refer : [git 
 
 ---
 
-Thanks for SHLOKLABS to provide us with the opportunity to work in the project.
- 
-A special Thanks **Manoj Kumar Thangadurai**, _Lead Engineer, Shloklabs_ and **Dr. N. Arulanand**, _Professor,PSG College of Technology_ for mentoring us throughtout the project and giving us their valuable feedback.
-
-
 ## Contributions
 
-### Mentors:
-1. `Dr. N. Arulanand, Professor, PSG College of Technology`
-2. `Muralitharan Sivalingam, CTO, SHLOKLABS`
-3. `Manoj Kumar Thangadurai, Lead Engineer, Shloklabs`
+### Mentor:
+1. `Manoj Kumar Thangadurai, Lead Engineer, Shloklabs`
 
 ### Core team:
 1. Gautham S
 2. Kamalraj D
 3. Krishna Teja B
-4. Pawan Kumar
-5. Dhanush Reddy
-6. Srikanth
 
 ![shloklabs-squarelogo](https://shloklabs.com/wp-content/uploads/2021/01/shlok-300x30.png)
 
-![PSG College Logo](https://1.bp.blogspot.com/-l_CBUtQxwRk/XmkkGnEuVZI/AAAAAAAA0zU/FpQtqOiERbgg9RiaHLCegQEY-UuLzlkZgCLcBGAsYHQ/s1600/images%2B%25282%2529.png)
