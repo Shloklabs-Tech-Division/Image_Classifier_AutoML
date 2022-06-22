@@ -56,13 +56,12 @@ To learn about the **Image classification model selector** project refer : [git 
   <img src="https://contrib.rocks/image?repo=Shloklabs-Tech-Division/Image_Classifier_AutoML" />
 </a>
 
-### Mentor:
-1. `Manoj Kumar Thangadurai, Lead Engineer, Shloklabs`
-
-### Core team:
-1. Gautham S
-2. Kamalraj D
-3. Krishna Teja B
 
 ![shloklabs-squarelogo](https://shloklabs.com/wp-content/uploads/2021/01/shlok-300x30.png)
+
+## License
+
+This project is [fair-code](http://faircode.io) distributed under the [**Sustainable Use License**](https://github.com/Shloklabs-Tech-Division/Image_Classifier_AutoML/blob/main/Licence.md).
+
+Additional information about license can be found in the [FAQ](https://docs.n8n.io/#/faq?id=license).
 
