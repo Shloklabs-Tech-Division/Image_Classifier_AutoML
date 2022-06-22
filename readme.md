@@ -52,6 +52,10 @@ To learn about the **Image classification model selector** project refer : [git 
 
 ## Contributions
 
+<a href="https://github.com/Shloklabs-Tech-Division/Image_Classifier_AutoML/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Shloklabs-Tech-Division/Image_Classifier_AutoML" />
+</a>
+
 ### Mentor:
 1. `Manoj Kumar Thangadurai, Lead Engineer, Shloklabs`
 
