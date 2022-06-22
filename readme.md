@@ -1,4 +1,9 @@
-# Image Classifier AutoML
+
+![shloklabs-squarelogo](https://shloklabs.com/wp-content/uploads/2021/01/shlok-300x30.png)
+
+# Ai Teachable Machine
+
+## Image Classifier AutoML Approach
 
 A flask web app written using python, which acts as an web interface to the teacheable machines project
 
@@ -18,21 +23,7 @@ The Image classification model selector is used as a package in this project.
 To run this project just launch the index.py using the command `python index.py`, for this to run the system should have python installed.
 Install any packages that is required to launch this app.
 
-## required packages
-
-1. pip (needed to install other packages)
-2. tensorflow
-3. shutil
-4. flask
-5. numpy
-6. sklearn
-7. PIL
-8. keras
-9. tensorflow_hub
-10. keras_tuner
-11. moviepy
-
-## pages in the web app
+## Application Overview
 
 first page to upload the images/video for the training data.
 <img width="960" alt="ip4" src="https://user-images.githubusercontent.com/66177629/174311310-d566581b-eba5-40e5-902c-78f511826fca.png">
@@ -57,11 +48,7 @@ To learn about the **Image classification model selector** project refer : [git 
 </a>
 
 
-![shloklabs-squarelogo](https://shloklabs.com/wp-content/uploads/2021/01/shlok-300x30.png)
-
 ## License
 
 This project is [fair-code](http://faircode.io) distributed under the [**Sustainable Use License**](https://github.com/Shloklabs-Tech-Division/Image_Classifier_AutoML/blob/main/Licence.md).
-
-Additional information about license can be found in the [FAQ](https://docs.n8n.io/#/faq?id=license).
 
